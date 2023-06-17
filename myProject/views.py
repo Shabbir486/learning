@@ -6,3 +6,6 @@ def index(request):
 
 def detail(request):
     return render(request,'test.html')
+
+def results(request):
+    return HttpResponse("You're looking at the results.")
